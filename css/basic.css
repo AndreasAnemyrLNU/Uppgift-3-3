@@ -37,7 +37,10 @@ body{
     height:50px;
 }
 #topbar{
+    background-color: #51473d;
     background-image:url(pics/coffey.jpg);
+    background-position: 0 1.1875em;
+    background-repeat:no-repeat;
     height: 13.75em;
     text-align: right;
     color: #eae7d2;
