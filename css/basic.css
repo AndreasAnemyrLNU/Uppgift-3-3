@@ -63,12 +63,14 @@ h1, h2{
 #menu{
     background-color: #51473d;
     height:30px;
+    width:600px;
 }
 
 #subcontent{
+    border-left:1px dashed #797066;
     float:left;
-    width:15em;
-    padding: 0.62em;
+    width:231px;
+
 }
 #subcontent a:link{
     color: #51473d;
