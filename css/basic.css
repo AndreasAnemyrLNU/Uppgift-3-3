@@ -20,10 +20,9 @@ a{
 body p {
     color: #797066;
     font-family: verdana, sans-serif;
-    font-size: 12.3px;
     line-height:1.8;
 }
-h1{
+h1, h2{
     color: #797066;
     font-family: Times, serif;
     font-size:1.6em;
@@ -37,10 +36,19 @@ h1{
     font-size:.6em;
     font-style: italic;
 }
+#container{
+    background-color: #eae7d2;
+    width: 600px;
+    height: 636px;
+    margin:auto;
+}
+#content{
+    width:600px;
+
+}
 #maincontent{
     float:left;
-    margin: .565em;
-    width: 20.49em;
+    width: 368px;
     
 }
 #maincontent img{
@@ -49,36 +57,55 @@ h1{
     position:relative;
     top:.15em;
 }
-#container{
-    background-color: #eae7d2;
-    width: 37.9em;
-    height: 39.75em;
-    margin:auto;
+#maincontent p{
+    font-size:.77em;
 }
 #menu{
     background-color: #51473d;
-    height:50px;
+    height:30px;
 }
 
-#topbar{
-    background-color: #51473d;
-    background-image:url(pics/coffey.jpg);
-    background-position: 0 1.1875em;
-    background-repeat:no-repeat;
-    height: 13.75em;
-    text-align: right;
-    color: #eae7d2;
-}
 #subcontent{
     float:left;
     width:15em;
     padding: 0.62em;
 }
-    #subcontent h1{
-        font-size:1.07em;
-        margin-top:0.2em;
-        margin-bottom:1.25em;
-    }
-        #subcontent p{
-            font-size:.7em;
-        }
+#subcontent a:link{
+    color: #51473d;
+    text-decoration:underline;
+}
+#subcontent h1{
+    font-size:1.07em;
+    margin-top:0.2em;
+    margin-bottom:1.25em;
+}
+#subcontent h2{
+   font-size:.9em; 
+   margin-top:1.5em;
+   padding:0;
+}
+#subcontent li a{
+    font-family:verdana;
+    font-size:.8em;
+    font-weight:100;
+    letter-spacing:.1em;
+    padding:0.3em 0;
+}
+#subcontent p{
+    font-size:.7em;
+}
+#topbar{
+    background-color: #51473d;
+    background-image:url(pics/coffey.jpg);
+    background-position: 0 1.8em;
+    background-repeat:no-repeat;
+    background-size: 600px 200px;
+    color: #eae7d2;
+    font-family:verdana;
+    font-size:.6em;
+    font-style:italic;
+    letter-spacing:0.05em;
+    padding:0;
+    height: 220px;
+    text-align: right;
+}
