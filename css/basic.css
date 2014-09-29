@@ -13,32 +13,33 @@ a[href="#maincontent"]{
 body p {
     color: #797066;
     font-family: verdana, sans-serif;
-    line-height:1.8;
+    line-height:1.7;
 }
 h1, h2{
     color: #797066;
     font-family: Times, serif;
-    font-size:1.6em;
-    margin-bottom:0.625em;
+    font-size:30px;
+    margin-bottom:14px;
+    margin-top:10px;
 
 }
 #bottomcontent{
     clear:both;
     color: #797066;
     font-family: verdana, sans-serif;
-    font-size:.6em;
+    font-size:9.6px;
     font-style: italic;
-    padding-left:8px;
+    padding-left:10px;
 }
 #container{
     background-color: #eae7d2;
     width: 600px;
     height: 636px;
-    margin:auto;
+    margin:10px auto;
 }
 #content{
+    border-top:1px solid white;
     width:600px;
-
 }
 #maincontent{
     float:left;
@@ -52,7 +53,7 @@ h1, h2{
     margin: 0 6px 0 0;
 }
 #maincontent p{
-    font-size:.77em;
+    font-size:12.2px;
 }
 #menu{
     background-color: #51473d;
@@ -85,7 +86,7 @@ h1, h2{
     background-color:#9c9084;
 }
 #menu li a:active{
-    text-decoration:strike;
+    background-color:#bbb;
 }
 #subcontent{
     border-left:1px dashed #797066;
@@ -94,46 +95,53 @@ h1, h2{
     width:211px;
 
 }
-#subcontent a:link{
-    color:#797066;
-    text-decoration:underline;
-}
-#subcontent a:visited{
-    color:#797066;
-    text-decoration:underline;
-}
 #subcontent h1{
-    font-size:1.07em;
-    margin-top:0.2em;
-    margin-bottom:1.25em;
+    font-size:17px;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 #subcontent h2{
-   font-size:.9em; 
-   margin-top:1.5em;
-   padding:0;
+   font-size:14px; 
+   margin-top:24px;
 }
 #subcontent li a{
     font-family:verdana;
-    font-size:.8em;
+    font-size:13.2px;
     font-weight:100;
-    letter-spacing:.1em;
     padding:0.3em 0;
+}
+#subcontent li a:link{
+    color:#797066;
+    text-decoration:underline;
+}
+#subcontent li a:visited{
+    color:#797066;
+}
+#subcontent li a:focus{
+    color:#9c9084;
+}
+#subcontent li a:hover{
+    color:#9c9084;
+}
+#subcontent li a:active{
+    color:#bbb;
 }
 #subcontent p{
     font-size:10px;
+    line-height:2;
 }
 #topbar{
     background-color: #51473d;
     background-image:url(pics/coffey.jpg);
-    background-position: 0 1.8em;
+    background-position: 0 20px;
     background-repeat:no-repeat;
     background-size: 600px 200px;
     color: #eae7d2;
     font-family:verdana;
-    font-size:.6em;
+    font-size:9.4px;
     font-style:italic;
     letter-spacing:0.05em;
-    padding:0;
-    height: 220px;
+    padding:5px 2px 0 0;
+    height: 222px;
     text-align: right;
 }
