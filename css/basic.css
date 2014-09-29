@@ -25,16 +25,17 @@ body p {
     line-height:1.8;
 }
 h1{
-       font-family: Times, serif;
-       font-size:1.6em;
-       margin-bottom:1.625em;
+    color: #797066;
+    font-family: Times, serif;
+    font-size:1.6em;
+    margin-bottom:0.625em;
 
 }
 #maincontent{
     float:left;
     letter-spacing:0.0002em;
     margin: .565em;
-    width: 19.95em;
+    width: 19.99em;
     
 }
 #maincontent img{
@@ -68,8 +69,8 @@ h1{
 }
     #subcontent h1{
         font-size:1.25em;
-        margin-bottom:2.2em;
+        margin-bottom:1em;
     }
         #subcontent p{
-            font-size:.7.em;
+            font-size:.7em;
         }
