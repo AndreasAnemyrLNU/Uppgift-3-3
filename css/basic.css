@@ -10,12 +10,8 @@ a:link{
     color: #51473d;
     text-decoration:none;
 }
-a{
-    background-color:#eae7d2;
-    display:block;
-    float:left;
-    height:1em;
-    padding: 0.7em;
+a[href="#maincontent"]{
+    display:none;
 }
 body p {
     color: #797066;
@@ -35,6 +31,7 @@ h1, h2{
     font-family: verdana, sans-serif;
     font-size:.6em;
     font-style: italic;
+    padding-left:8px;
 }
 #container{
     background-color: #eae7d2;
@@ -56,8 +53,6 @@ h1, h2{
 #maincontent img{
     float:left;
     margin: 0 6px 0 0;
-
-
 }
 #maincontent p{
     font-size:.77em;
@@ -68,7 +63,14 @@ h1, h2{
     padding-left:10px;
     width:590px;
 }
-
+#menu li a{
+    background-color:#797066;
+    color:#eae7d2;
+    display:block;
+    float:left;
+    height:30px;
+    padding: 0 6px;
+}
 #subcontent{
     border-left:1px dashed #797066;
     float:left;
