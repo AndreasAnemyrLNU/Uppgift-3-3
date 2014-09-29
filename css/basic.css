@@ -15,13 +15,12 @@ a{
     display:block;
     float:left;
     height:1em;
-
     padding: 0.7em;
 }
 body p {
     color: #797066;
     font-family: verdana, sans-serif;
-    font-size: 12px;
+    font-size: 12.3px;
     line-height:1.8;
 }
 h1{
@@ -31,21 +30,29 @@ h1{
     margin-bottom:0.625em;
 
 }
+#bottomcontent{
+    clear:both;
+    color: #797066;
+    font-family: verdana, sans-serif;
+    font-size:.6em;
+    font-style: italic;
+}
 #maincontent{
     float:left;
-    letter-spacing:0.0002em;
     margin: .565em;
-    width: 19.99em;
+    width: 20.49em;
     
 }
 #maincontent img{
     float:left;
-    margin: 0 .5em .25em 0;
+    margin: 0em .5em .25em 0;
+    position:relative;
+    top:.15em;
 }
 #container{
     background-color: #eae7d2;
-    width: 37.5em;
-    height: 39.75;
+    width: 37.9em;
+    height: 39.75em;
     margin:auto;
 }
 #menu{
@@ -64,12 +71,13 @@ h1{
 }
 #subcontent{
     float:left;
-    width:12.6em;
-    padding: 0.625em;
+    width:15em;
+    padding: 0.62em;
 }
     #subcontent h1{
-        font-size:1.25em;
-        margin-bottom:1em;
+        font-size:1.07em;
+        margin-top:0.2em;
+        margin-bottom:1.25em;
     }
         #subcontent p{
             font-size:.7em;
