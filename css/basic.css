@@ -48,14 +48,16 @@ h1, h2{
 }
 #maincontent{
     float:left;
-    width: 368px;
+    padding: 10px;
+    padding-right:30px;
+    width: 328px;
     
 }
 #maincontent img{
     float:left;
-    margin: 0em .5em .25em 0;
-    position:relative;
-    top:.15em;
+    margin: 0 6px 0 0;
+
+
 }
 #maincontent p{
     font-size:.77em;
@@ -63,13 +65,15 @@ h1, h2{
 #menu{
     background-color: #51473d;
     height:30px;
-    width:600px;
+    padding-left:10px;
+    width:590px;
 }
 
 #subcontent{
     border-left:1px dashed #797066;
     float:left;
-    width:231px;
+    padding:10px;
+    width:211px;
 
 }
 #subcontent a:link{
