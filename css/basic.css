@@ -26,10 +26,14 @@ body p {
 h1{
        font-family: Times, serif;
        font-size:1.6em;
-       padding-left: 0;
+       margin-bottom:1.5625em;
+
 }
 #maincontent{
+    float:left;
     margin: 0.565em;
+    width: 22.5em;
+    
 }
 #maincontent img{
     float:left;
@@ -54,3 +58,12 @@ h1{
     text-align: right;
     color: #eae7d2;
 }
+#subcontent{
+    float:left;
+    width:12.6em;
+    padding: 0.625em;
+}
+    #subcontent h1{
+        font-size:1.25em;
+        margin-bottom:2.2em
+    }
