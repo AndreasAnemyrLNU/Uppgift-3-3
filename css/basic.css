@@ -22,21 +22,24 @@ body p {
     color: #797066;
     font-family: verdana, sans-serif;
     font-size: 12px;
+    line-height:1.8;
 }
 h1{
        font-family: Times, serif;
        font-size:1.6em;
-       margin-bottom:1.5625em;
+       margin-bottom:1.625em;
 
 }
 #maincontent{
     float:left;
-    margin: 0.565em;
-    width: 22.5em;
+    letter-spacing:0.0002em;
+    margin: .565em;
+    width: 19.95em;
     
 }
 #maincontent img{
     float:left;
+    margin: 0 .5em .25em 0;
 }
 #container{
     background-color: #eae7d2;
@@ -65,5 +68,8 @@ h1{
 }
     #subcontent h1{
         font-size:1.25em;
-        margin-bottom:2.2em
+        margin-bottom:2.2em;
     }
+        #subcontent p{
+            font-size:.7.em;
+        }
