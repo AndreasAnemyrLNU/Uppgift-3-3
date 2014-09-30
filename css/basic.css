@@ -86,7 +86,7 @@ h1, h2{
     background-color:#9c9084;
 }
 #menu li a:active{
-    background-color:#bbb;
+    background-color:red;
 }
 #subcontent{
     border-left:1px dashed #797066;
@@ -145,3 +145,9 @@ h1, h2{
     height: 222px;
     text-align: right;
 }
+
+#menu .active a {
+    color:#51473d;
+    background-color:#eae7d2;
+}
+
